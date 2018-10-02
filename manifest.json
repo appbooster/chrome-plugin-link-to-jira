@@ -1,9 +1,11 @@
 {
   "manifest_version": 2,
- 
   "name": "Link from github PR title to Jira",
   "version": "0.1.0",
   "description": "Replaces jira issue codes to links in github PR titles",
+  "icons": {
+    "48": "icon.png"
+  },
   "content_scripts": [{
     "js": ["content.js"],
     "matches": ["https://github.com/appbooster/*/pull/*"]
