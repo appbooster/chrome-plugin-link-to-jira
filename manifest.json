@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Link from github PR title to Jira",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Replaces jira issue codes to links in github PR titles",
   "icons": {
     "48": "icon.png"
@@ -15,5 +15,5 @@
       "id": "github-to-jira@appbooster.com"
     }
   }
- 
+
 }
